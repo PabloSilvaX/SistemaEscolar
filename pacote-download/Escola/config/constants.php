@@ -1,3 +1,3 @@
 <?php
-    $base_url = "http://localhost/meusprojetos/EscolaPHP/pacote-download/Escola/";
+    $base_url = "http://localhost/meusprojetos/SistemaEscolar/pacote-download/Escola/";
 ?>
