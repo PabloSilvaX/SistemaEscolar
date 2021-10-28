@@ -1,2 +1,2 @@
 # EscolaPHP
- Sistema Escolar em HTML, CSS, JavaScript, PHP (Ultilizando também: Bootstrap, Modelo MVC, JQuery e POO).
+ Sistema Escolar em HTML, CSS, JavaScript, PHP (Utilizando também: Bootstrap, Modelo MVC, JQuery, POO e Mysql).
