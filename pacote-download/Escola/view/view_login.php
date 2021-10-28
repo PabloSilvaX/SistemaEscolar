@@ -24,7 +24,12 @@
             </p>
             <div class="botao-login">
                 <button type="button" id="botao-login" class="btn btn-secondary mb-2"><i class="fas fa-sign-in-alt"></i> Entrar</button>
-                <button type="button" id="botao-login" class="btn btn-secondary mb-2"><i class="fas fa-university"></i> Seja Aluno</button>
+                
+                <a href="<?= $base_url ?>Matricula">
+                    <button type="button" id="botao-login" class="btn btn-secondary mb-2">
+                        <i class="fas fa-university"></i> Seja Aluno</button>
+                </a>
+
             </div>
             </form>
 
