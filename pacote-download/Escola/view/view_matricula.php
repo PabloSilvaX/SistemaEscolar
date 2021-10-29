@@ -1,8 +1,9 @@
 <div class="text-center" id="etapas-registro">
-
+    <div class="etapa-acesa"></div>
+    <div class="etapa-apagada"></div>
 </div>
 
-<div class="container mt-5 mb-2 col-12 col-lg-5">
+<div class="container mt-5 mb-2 col-12 col-lg-5 mb-5">
     <div class="card" id="card-login">
         <div class="card-body">
             <h3 class="card-title text-center text-white">Matricule-se</h3>
