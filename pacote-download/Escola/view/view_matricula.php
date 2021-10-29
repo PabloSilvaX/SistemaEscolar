@@ -7,7 +7,7 @@
         <div class="card-body">
             <h3 class="card-title text-center text-white">Matricule-se</h3>
             <div class="imagem text-center">
-            <img src="<?= $base_url ?>assets/img/icone-estudos.png" alt="" width="100px">
+            <img src="<?= $base_url ?>assets/img/icone-matricula.png" alt="" width="100px">
             </div>
 
             <form action="" method="post"></form>

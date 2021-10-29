@@ -54,9 +54,11 @@
          Sou Aluno <i class="fas fa-user-graduate"></i>
         </button>
         </a>
+        <a href="<?= $base_url ?>Matricula">
         <button type="button" class="btn btn-primary me-3">
           Seja Aluno <i class="fas fa-university"></i>
         </button>
+        </a>
         <a
           class="btn btn-success px-3"
           href="https://github.com/mdbootstrap/mdb-ui-kit"

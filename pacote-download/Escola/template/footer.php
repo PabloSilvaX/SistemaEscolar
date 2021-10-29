@@ -14,7 +14,7 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2020 Copyright:
-      <a class="text-white" href="">Escola Xavier | Pablo</a>
+      <a class="text-white" href="https://github.com/PabloSilvaX?tab=repositories"> Desenvolvido por Pablo da Silva <i class="fab fa-github"></i></a>
     </div>
     <!-- Copyright -->
   </footer>
