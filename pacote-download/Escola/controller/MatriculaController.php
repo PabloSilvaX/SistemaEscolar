@@ -11,6 +11,11 @@ class MatriculaController{
         include_once 'template/rodape.php';
     }
 
+    public function ChecarEmail(){
+        $email = new Matricula();
+        $email->checarEmail($_GET['email']);
+    }
+
 }
 
 ?>

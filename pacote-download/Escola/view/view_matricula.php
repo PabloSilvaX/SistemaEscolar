@@ -13,7 +13,8 @@
             </div>
 
             <form action="" method="post"></form>
-            <p class="card-text">
+            
+            <div class="card-text" id="etapa-1">
                 <div class="input-text">
                     <label for="nome"><i class="fas fa-user fa-lg text-white"></i></label>
                     <input type="text" class="input-login col-10 col-md-8 col-lg-8" name="Nome" id="nome" placeholder="Nome Completo" autocomplete="off">
@@ -26,17 +27,42 @@
                     <label for="telefone"><i class="fas fa-phone fa-lg text-white"></i></label>
                     <input type="text" class="input-login col-10 col-md-8 col-lg-8" name="telefone" id="telefone" placeholder="Telefone / Celular" autocomplete="off">
                 </div>
-                
-            </p>
-            <div class="botao-login">
-                <button type="button" id="botao-login" class="btn btn-secondary mb-2"><i class="fas fa-sign-in-alt"></i> Entrar</button>
-                
-                <a href="<?= $base_url ?>Matricula">
-                    <button type="button" id="botao-login" class="btn btn-secondary mb-2">
-                        <i class="fas fa-university"></i> Seja Aluno</button>
-                </a>
-
             </div>
+            
+            <div class="card-text" id="etapa-2" style="display:none;">
+                <div class="input-text">
+                    <label for="nome"><i class="fas fa-user fa-lg text-white"></i></label>
+                    <input type="text" class="input-login col-10 col-md-8 col-lg-8" name="Nome" id="" placeholder="Nome Completo" autocomplete="off">
+                </div>
+                <div class="input-text">
+                    <label for="email"><i class="fas fa-envelope fa-lg text-white"></i></label>
+                    <input type="text" class="input-login col-10 col-md-8 col-lg-8" name="email" id="" placeholder="Email" autocomplete="off">
+                </div>
+                <div class="input-text">
+                    <label for="telefone"><i class="fas fa-phone fa-lg text-white"></i></label>
+                    <input type="text" class="input-login col-10 col-md-8 col-lg-8" name="telefone" id="" placeholder="Telefone / Celular" autocomplete="off">
+                </div>
+            </div>
+            
+            <div class="card-text" id="etapa-3" style="display:none;">
+                <div class="input-text">
+                    <label for="nome"><i class="fas fa-user fa-lg text-white"></i></label>
+                    <input type="text" class="input-login col-10 col-md-8 col-lg-8" name="Nome" id="" placeholder="Nome Completo" autocomplete="off">
+                </div>
+                <div class="input-text">
+                    <label for="email"><i class="fas fa-envelope fa-lg text-white"></i></label>
+                    <input type="text" class="input-login col-10 col-md-8 col-lg-8" name="email" id="" placeholder="Email" autocomplete="off">
+                </div>
+                <div class="input-text">
+                    <label for="telefone"><i class="fas fa-phone fa-lg text-white"></i></label>
+                    <input type="text" class="input-login col-10 col-md-8 col-lg-8" name="telefone" id="" placeholder="Telefone / Celular" autocomplete="off">
+                </div>
+            </div>
+
+            <div class="botao-login">
+                <button type="button" id="botao-matricula" class="btn btn-secondary mb-2">Confirmar</button>
+            </div>
+
             </form>
 
         </div>
